@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAnalytics.SDK", "GoogleAnalytics.SDK\GoogleAnalytics.SDK.csproj", "{0CB41CFC-A1C3-4A23-AAF5-35C2A461ACD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAnalytics.WPF", "GoogleAnalytics.WPF\GoogleAnalytics.WPF.csproj", "{091FF1F9-3A5C-45E1-BDC8-C17776722977}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CB41CFC-A1C3-4A23-AAF5-35C2A461ACD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB41CFC-A1C3-4A23-AAF5-35C2A461ACD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB41CFC-A1C3-4A23-AAF5-35C2A461ACD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB41CFC-A1C3-4A23-AAF5-35C2A461ACD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{091FF1F9-3A5C-45E1-BDC8-C17776722977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091FF1F9-3A5C-45E1-BDC8-C17776722977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091FF1F9-3A5C-45E1-BDC8-C17776722977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{091FF1F9-3A5C-45E1-BDC8-C17776722977}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
